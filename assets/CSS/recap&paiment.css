@@ -1,0 +1,311 @@
+@font-face {
+    font-family: "Homeday";
+    src: url("../fonts/Homeday.ttf");
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* **************FIN RESET**************** */
+#conteneur0{
+    width: 100%;
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+    
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+#logo {
+    margin-left: 20px;
+    width: 170px;
+    height: 170px;
+}
+
+#bouton0{
+    margin-top: 40px;
+    margin-right: 60px;
+}
+.bouton00{
+	margin: 20px 0 0 20px;
+	color: white;
+	background-color: rgb(249, 186, 242);
+	border: 0;
+	border-radius: 5px;
+    padding: 20px 80px 20px 80px;
+}
+.bouton00:hover{
+	margin: 22px 0 0 22px;
+	height: 35px;
+	width: 140px;
+	color: black;
+	background-color: rgb(255, 124, 240);
+	border: 0;
+	border-radius: 5px;
+    padding: 20px 80px 20px 80px;
+}
+
+#section1{
+    display: flex;
+    flex-direction: column;
+    margin: 4rem;
+}
+
+#section1-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#numero{
+    width: 588px;
+    height: 81px;
+    background-color: rgb(231, 226, 226);
+    font-size: 29px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #494c4f;
+}
+
+#bloc1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 3rem;
+}
+#bloc1-1-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+h1{
+    font-family: 'Homeday';
+    color: rgb(205, 158, 212);
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+    color: grey;
+}
+.trait{
+    width: 30px;
+    height: 1.2px;
+    border-bottom: solid rgb(90, 90, 90);
+    background-color: rgb(81, 81, 81);
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.traits,.t1{
+    width: 100%;
+    border-bottom: 4px dashed #576d8b;
+}
+.t1{
+    margin-bottom: 3.5rem;
+}
+
+
+
+input[type="radio"].moyen
+{
+    width: 30px;
+    height: 30px;
+}
+.image{
+width: 100px;
+height: 100px;
+}
+form{
+    width: 588px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#section2{
+display: flex;
+flex-direction: row;
+margin: 4rem;
+justify-content: space-between;
+}
+#validation{
+    width: 480px;
+    height: 80px;
+    background-color: rgb(215, 166, 198);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 37px;
+}
+#validation:hover{
+    width: 480px;
+    height: 80px;
+    background-color: rgb(255, 108, 204);
+    border: none;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 37px;
+}
+
+#article{
+    width: 500px;
+    border: 20px #102940;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+}
+
+#bloccc{
+    width: 80%;
+    border: 9px solid rgb(77, 77, 77);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+/* ****footer******/
+a{
+	text-decoration: none;
+	color: white;
+}
+footer{
+	background-color: #102940;
+}
+#ajuster{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: #102940;
+	color: white;
+	height: 320px;
+	align-items: flex-start;
+	padding-top: 3rem;
+
+}
+footer li, footer img{
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+#carte{
+	width: 300px;
+	height: 160px;
+	margin: 20px 0 20px 0;
+}
+#plan{
+	font-size: 20px;
+	border: 2px;
+	font-weight: bold;
+}
+#apropos li , .deslogos, #ee3{
+	margin-bottom: 20px;
+}
+#tout{
+	display: flex;
+	flex-direction: column;
+}
+#e1,#e2,#e3{
+	margin: 10px;
+	width: 50px;
+	height: 50px;
+}
+#e1{
+	background-color: white;
+	border-radius: 15px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+#e1-2{
+	width: 65%;
+	height: 65%;
+	background-image: url(../icons/instagram.svg);
+	background-position-y: 45px;
+	background-position-x: 41px;
+	background-size: 50px;
+}
+#e2{
+	border-radius: 50%;
+}
+#e3{
+	background-color: white;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#e3-2{
+	width: 58%;
+	height: 65%;
+	background-image: url(../icons/tiktok.svg);
+	background-size: 29px;
+}
+.marge{
+	margin-bottom: 1rem;
+}

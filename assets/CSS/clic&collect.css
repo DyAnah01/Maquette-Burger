@@ -1,0 +1,426 @@
+@font-face {
+    font-family: "Homeday";
+    src: url("../fonts/Homeday.ttf");
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* **************FIN RESET**************** */
+
+
+#conteneur0{
+    width: 100%;
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+    
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+#logo {
+    margin-left: 20px;
+    width: 170px;
+    height: 170px;
+}
+
+#bouton0{
+    margin-top: 40px;
+    margin-right: 60px;
+}
+.bouton00{
+	margin: 20px 0 0 20px;
+	height: 35px;
+	width: 140px;
+	color: white;
+	background-color: rgb(249, 186, 242);
+	border: 0;
+	border-radius: 5px;
+    padding: 20px 80px 20px 80px;
+}
+.bouton00:hover{
+	margin: 22px 0 0 22px;
+	color: black;
+	background-color: rgb(255, 124, 240);
+	border: 0;
+	border-radius: 5px;
+    padding: 20px 80px 20px 80px;
+}
+
+#bloc1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 3rem;
+}
+#bloc1-1-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#paiment{
+    color: #576d8b;
+}
+.trait{
+    width: 15px;
+    height: 1px;
+    border-bottom: solid grey;
+    background-color: grey;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+h1{
+    font-family: 'Homeday';
+    color: rgb(205, 158, 212);
+    font-size: 40px;
+}
+h2{
+    font-size: 20px;
+    color: grey;
+}
+h3{
+    font-size: 30px;
+    color: #102240;
+    font-weight: bold;
+}
+#lorem1{
+    width: 80%;
+    margin-top: 1.5rem;
+    color: #576d8b;
+    font-size: 25px;
+}
+
+.isol{
+    width: 100%;
+    height: 15rem;
+}
+#section1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#collect{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.square{
+    width: 40px;
+    height: 40px;
+    background-color: grey;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 20px 0;
+
+}
+.entre,#entre{
+    width: 6px;
+    height: 5px;
+    background-color: grey;
+}
+#entre{
+    width: 30px;
+    margin-right: 2rem;
+}
+.square:hover{
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px ;
+}
+.enrelief , #burg1,#frittes{
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(239, 239, 239);
+}
+.enrelief:hover,#burg1:hover,#frittes:hover{
+    width: 48px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: rgb(239, 239, 239);
+}
+
+#burg1{
+    background-image: url(../images/hamburger-noir.webp);
+    background-size: cover;
+}
+#frittes{
+    background-image: url(../images/frites-patate-douce.webp);
+    background-size: cover;
+}
+#card{
+    width: 45px;
+    height: 35px;
+    display: flex;
+    position: relative;
+    margin-right: 20px;
+}
+#card1{
+    z-index: 3;
+    position: absolute;
+    width: 35px;
+    height: 25px;
+    justify-self: flex-start;
+    align-self: flex-start;
+    background-color: #cacaca;
+    border-radius: 3.5px;
+}
+#cardwhite{
+    z-index: 2;
+    width: 35px;
+    height: 25px;
+    position: absolute;
+    justify-self: center;
+    align-self: center;
+    
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: white;
+    border-radius: 3.5px;
+}
+ 
+#card2{
+    z-index: 1;
+    position: absolute;
+    width: 35px;
+    height: 25px;
+
+    background-color: #cacaca;
+    margin: 10px 0 0 10px;
+    border-radius: 3.5px;
+}
+ 
+.leblanc{
+    width: 35px;
+    height: 5px;
+    margin-top: 5px;
+    background-color: white;
+}
+
+
+#gauche,#droite{
+    width: 40%;
+}
+#gauche{
+    margin: 0 1% 0 9%;
+}
+#droite{
+    margin: 0 9% 0 1%;
+}
+.traits{
+    width: 100%;
+    border: 2px dashed #576d8b;
+    margin: 20px;
+}
+.tex{
+    margin-left: 50px;
+    font-size: 30px;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.image,#conteau{
+    width: 190px;
+    height: 190px;
+    border-radius: 7px;
+    margin: 10px 10px 10px 10px;
+}
+#conteau{
+    width: 190px;
+    height: 190px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(212, 212, 212);
+}
+#eau{
+    width: 200px;
+}
+input[type="radio"].boisson
+{
+    width: 30px;
+    height: 30px;
+}
+
+
+#next{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+}
+#boutonnext{
+    margin: 22px 0 0 22px;
+    color: white;
+    background-color: rgb(222, 164, 215);
+    border: 0;
+    border-radius: 5px;
+    font-size: 35px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    padding: 30px 200px 30px 200px;
+}
+#boutonnext:hover{
+    margin: 22px 0 0 22px;
+    color: black;
+    background-color: rgb(255, 68, 233);
+    border: 0;
+    border-radius: 5px;
+    font-size: 35px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 200px 30px 200px;
+}
+
+
+/* ********* */
+a{
+	text-decoration: none;
+	color: white;
+}
+footer{
+	background-color: #102940;
+}
+#ajuster{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: #102940;
+	color: white;
+	height: 320px;
+	align-items: flex-start;
+	padding-top: 3rem;
+
+}
+footer li, footer img{
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+#carte{
+	width: 300px;
+	height: 160px;
+	margin: 20px 0 20px 0;
+}
+#plan{
+	font-size: 20px;
+	border: 2px;
+	font-weight: bold;
+}
+#apropos li , .deslogos, #ee3{
+	margin-bottom: 20px;
+}
+#tout{
+	display: flex;
+	flex-direction: column;
+}
+#e1,#e2,#e3{
+	margin: 10px;
+	width: 50px;
+	height: 50px;
+}
+#e1{
+	background-color: white;
+	border-radius: 15px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+#e1-2{
+	width: 65%;
+	height: 65%;
+	background-image: url(../icons/instagram.svg);
+	background-position-y: 45px;
+	background-position-x: 41px;
+	background-size: 50px;
+}
+#e2{
+	border-radius: 50%;
+}
+#e3{
+	background-color: white;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#e3-2{
+	width: 58%;
+	height: 65%;
+	background-image: url(../icons/tiktok.svg);
+	background-size: 29px;
+}
+.marge{
+	margin-bottom: 1rem;
+}
